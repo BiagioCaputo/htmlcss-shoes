@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 
@@ -11,13 +11,6 @@
 body{
     font-family: 'Rubik Mono One', sans-serif;
 }
-
-
-
-/*Pagina 1*/
-
-
-
 
 
 
@@ -41,3 +34,40 @@ body{
 .bg-yellow{
     background-color: yellow;
 }
+
+
+
+/*Barra navigazione*/
+
+.nav-bar{
+    position: fixed;
+    top:20px;
+    right:10px;
+    z-index: 1;
+}
+
+.nav-bar ul{
+    list-style-type: none;
+}
+
+.nav-bar li,a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color:black;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px black;
+
+
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0 10px;
+    
+}
+
+
+
+
+/*Pagina 1*/
