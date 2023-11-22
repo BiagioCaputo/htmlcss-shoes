@@ -1,0 +1,43 @@
+/*Css Reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+/*Generals*/
+body{
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+
+
+/*Pagina 1*/
+
+
+
+
+
+
+/*Utilities*/
+
+.full-page{
+    height: 100vh;
+}
+
+
+.bg-red{
+    background-color: red;
+}
+
+
+.bg-green{
+    background-color: green;
+}
+
+
+.bg-yellow{
+    background-color: yellow;
+}
